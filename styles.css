@@ -1,0 +1,56 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0px;
+padding:0px;
+background-image:url(img/bkg.jpeg) ;
+background-image:no-repeat;
+height: 100vh;
+color: #333;
+text-align: center;
+align-items: center;
+
+
+}
+.header{
+display: flex;
+align-items: center;
+background-color: aliceblue;
+
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    float:right;
+  
+  }
+  
+  .navbar li {
+    display: inline;
+   
+  }
+ 
+.navbar li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+  .booknow{
+    background: orange;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .luxury{
+    text-align: center;
+    margin-top: 200px;
+  }
+  .luxury h1{
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .luxury p{
+    margin-top: 10px;
+    font-size: 18px;
+  }
